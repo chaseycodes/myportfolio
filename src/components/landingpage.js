@@ -21,6 +21,25 @@ class LandingPage extends Component {
                             <p>
                                 HTML/CASS/React/Python?ETC ALL THAT CRAP
                             </p>
+
+                            <div className="social-links">
+
+                                {/* LinkedIn */}
+                                <a href="https://linkedin.com/in/chaseahn" rel="noopener noreferrer" target="_blank">
+                                    <i class="fab fa-linkedin" />
+                                </a>
+
+                                {/* Github */}
+                                <a href="https://linkedin.com/in/chaseahn" rel="noopener noreferrer" target="_blank">
+                                    <i class="fab fa-github" aria-hidden="true" />
+                                </a>
+
+                                {/* Dribble */}
+                                <a href="https://linkedin.com/in/chaseahn" rel="noopener noreferrer" target="_blank">
+                                    <i class="fab fa-dribbble" aria-hidden="true" />
+                                </a>
+        
+                            </div>
                         </div>
 
                     </Cell>

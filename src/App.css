@@ -11,8 +11,8 @@
 }
 
 .avatar-image {
-  height: 250px;
-  padding-top: 5em;
+  height: 10%;
+  padding-top: 3em;
 }
 
 .banner-text {
@@ -40,4 +40,8 @@
   color: white;
   padding: 1em;
   margin: auto;
+}
+
+.social-links {
+  color: white;
 }
