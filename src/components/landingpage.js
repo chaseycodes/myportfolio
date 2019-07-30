@@ -72,24 +72,13 @@ class LandingPage extends Component {
                     </Cell>
 
                     <Cell col={12}>
-
-                        <div className="general-links">
-                            <a href="/">
-                                <div className="card">
-                                    <div>
-                                        <i class="fa fa-linkedin-square" aria-hidden="true" />
-                                    </div>
-                                    <text> Linkedin </text>
-                                </div>
-                            </a>
-                            <div className="card">
-                                hi
-                            </div>
-                            <div className="card">
-                                hi
-                            </div>
+                        <div className="circle-links">
+                            <ul>
+                                <li><a href="/" target="_blank"><i class="fa fa-code" aria-hidden="true" /></a></li>
+                                <li><a href="/" target="_blank"><i class="fa fa-fire" aria-hidden="true" /></a></li>
+                                <li><a href="/" target="_blank"><i class="fa fa-rocket" aria-hidden="true" /></a></li>
+                            </ul>
                         </div>
-
                     </Cell>
 
                 </Grid>
