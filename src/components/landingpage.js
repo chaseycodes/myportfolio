@@ -2,6 +2,7 @@ import React from 'react';
 import { Component } from 'react';
 import { Grid, Cell, Card, CardTitle, CardText, CardActions, Button} from 'react-mdl';
 import Avatar from '../images/avatar.png';
+import DancingPanda from '../images/panda.gif';
 
 class LandingPage extends Component {
     render() {
@@ -17,22 +18,21 @@ class LandingPage extends Component {
                             className="avatar-image"
                         />
 
-                        {/* Description */}
                         <div className="banner-text">
                             <h1>
-                                Chase 
+                                Chase
                             </h1>
                             <p>
                                 Lead Product Designer at Betfluent
                             </p>
                             <p>
-                                Click here to learn more about me  
+                                Click <a href="/aboutme">here</a> to learn more about me  
                             </p>
                         </div>
 
                         {/* Github */}
                         <div className="button-container">
-                            <a href="/aboutme" rel="noopener noreferrer" target="_black">
+                            <a href="https://www.github.com/chaseahn" rel="noopener noreferrer" target="_black">
                                 <span></span>
                                 <span></span>
                                 <i class="fa fa-github" aria-hidden="true" />
@@ -43,7 +43,7 @@ class LandingPage extends Component {
 
                         {/* Dribbble */}
                         <div className="button-container">
-                            <a href="/aboutme" rel="noopener noreferrer" target="_black">
+                            <a href="https://www.dribbble.com/chaseahn" rel="noopener noreferrer" target="_black">
                                 <span></span>
                                 <span></span>
                                 <i class="fa fa-dribbble" aria-hidden="true" />
@@ -54,7 +54,7 @@ class LandingPage extends Component {
 
                         {/* LinkedIn */}
                         <div className="button-container">
-                            <a href="/aboutme" rel="noopener noreferrer" target="_black">
+                            <a href="https://www.linkedin.com/in/chaseahn" rel="noopener noreferrer" target="_black">
                                 <span></span>
                                 <span></span>
                                 <i class="fa fa-linkedin-square" aria-hidden="true" />
@@ -83,11 +83,21 @@ class LandingPage extends Component {
 
                                 <li><a href="/" target="_blank"><i class="fa fa-rocket" aria-hidden="true" /></a>
                                 <text>Experience</text></li>
-                                
+
                             </ul>
                         </div>
                     </Cell>
 
+                    <Cell col={12}>
+                        <div className="bottom-panda">
+                            {/* Avatar */}
+                            <img 
+                                src={DancingPanda}
+                                alt="dancing-panda"
+                                className="panda-image"
+                            />
+                        </div>
+                    </Cell>
                 </Grid>
             </div>
         )
