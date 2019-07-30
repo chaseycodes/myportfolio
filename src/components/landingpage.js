@@ -1,5 +1,5 @@
 import React from 'react';
-import { Component } from 'react';
+import { Component, Button } from 'react';
 import { Grid, Cell } from 'react-mdl';
 import Avatar from '../images/avatar.png';
 
@@ -14,34 +14,31 @@ class LandingPage extends Component {
                             alt="avatar"
                             className="avatar-image"
                         />
-
+                        <div className="banner-text">
+                            <h1>
+                                Chase 
+                            </h1>
+                            <p>
+                                Lead Product Designer at Betfluent.
+                            </p>
+                            <p>
+                                View my past experiences here! 
+                            </p>
+                        </div>
+                        <div className="button-container">
+                            <button>
+                                hi
+                            </button>
+                        </div>
+                    </Cell>
+                    <Cell col={12}>
                         <div className="banner-text">
                             <h1>Full Stack Web Developer</h1>
                             <hr/>
                             <p>
                                 HTML/CASS/React/Python?ETC ALL THAT CRAP
                             </p>
-
-                            <div className="social-links">
-
-                                {/* LinkedIn */}
-                                <a href="https://linkedin.com/in/chaseahn" rel="noopener noreferrer" target="_blank">
-                                    <i class="fab fa-linkedin" />
-                                </a>
-
-                                {/* Github */}
-                                <a href="https://linkedin.com/in/chaseahn" rel="noopener noreferrer" target="_blank">
-                                    <i class="fab fa-github" aria-hidden="true" />
-                                </a>
-
-                                {/* Dribble */}
-                                <a href="https://linkedin.com/in/chaseahn" rel="noopener noreferrer" target="_blank">
-                                    <i class="fab fa-dribbble" aria-hidden="true" />
-                                </a>
-        
-                            </div>
                         </div>
-
                     </Cell>
                 </Grid>
             </div>
