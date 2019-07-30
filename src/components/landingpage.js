@@ -74,9 +74,16 @@ class LandingPage extends Component {
                     <Cell col={12}>
                         <div className="circle-links">
                             <ul>
-                                <li><a href="/" target="_blank"><i class="fa fa-code" aria-hidden="true" /></a></li>
-                                <li><a href="/" target="_blank"><i class="fa fa-fire" aria-hidden="true" /></a></li>
-                                <li><a href="/" target="_blank"><i class="fa fa-rocket" aria-hidden="true" /></a></li>
+
+                                <li><a href="/" target="_blank"><i class="fa fa-code" aria-hidden="true" /></a>
+                                <text className="text-adjust">Projects</text></li>
+
+                                <li><a href="/" target="_blank"><i class="fa fa-fire" aria-hidden="true" /></a>
+                                <text className="text-adjust">Skills</text></li>
+
+                                <li><a href="/" target="_blank"><i class="fa fa-rocket" aria-hidden="true" /></a>
+                                <text>Experience</text></li>
+                                
                             </ul>
                         </div>
                     </Cell>

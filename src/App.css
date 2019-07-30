@@ -187,6 +187,7 @@
   left: 50%;
   transform: translate(-50%, -50%);
   margin: 0;
+  margin-top: 50px;
   padding: 0;
   display: flex;
   align-items: center;
@@ -195,6 +196,11 @@
 
 .circle-links ul li {
   list-style: none;
+}
+
+
+.circle-links ul li text .text-adjust {
+  padding: 10em;
 }
 
 .circle-links ul li a {
@@ -206,4 +212,45 @@
   text-align: center;
   margin: 0 10px;
   border-radius: 50%;
+  padding: 6px;
+  box-sizing: border-box;
+  text-decoration: none;
+  box-shadow: 0 8px 8px rgba(0,0,0,.2);
+  transition: .5s;
+  background: linear-gradient(0deg, #fff, #ddd)
+}
+
+.circle-links ul text {
+  color: white;
+  font-size: 10px;
+  margin-top: 10px;
+  position: relative;
+}
+
+.circle-links ul li a:hover {
+  box-shadow: 0 3px 5px rgba(0,0,0,0.1);
+}
+
+.circle-links ul li a .fa {
+  width: 100%;
+  height: 100%;
+  display: block;
+  background: linear-gradient(0deg, #fff, #ff0);
+  border-radius: 50%;
+  line-height: calc(60px - 12px);
+  font-size: 24px;
+  color: #bdc3c7;
+  transition: .5s;
+}
+
+.circle-links ul li:nth-child(1) a:hover .fa {
+  color: #a17fe0;
+}
+
+.circle-links ul li:nth-child(2) a:hover .fa {
+  color: #FF4B2B;
+}
+
+.circle-links ul li:nth-child(3) a:hover .fa {
+  color: #4ECDC4;
 }
