@@ -26,7 +26,7 @@ class LandingPage extends Component {
                                 Lead Product Designer at Betfluent
                             </p>
                             <p>
-                                Click <a href="/aboutme">here</a> to learn more about me  
+                                Learn more about me <a href="/aboutme">here</a> 
                             </p>
                         </div>
 
@@ -35,9 +35,11 @@ class LandingPage extends Component {
                             <a href="https://www.github.com/chaseahn" rel="noopener noreferrer" target="_black">
                                 <span></span>
                                 <span></span>
-                                <i class="fa fa-github" aria-hidden="true" />
-                                <text> github </text>
-                                <i class="fa fa-github" aria-hidden="true" />
+                                <div className="black">
+                                    <i class="fa fa-github" aria-hidden="true" />
+                                    <text> github </text>
+                                    <i class="fa fa-github" aria-hidden="true" />
+                                </div>
                             </a>
                         </div>
 
@@ -46,9 +48,11 @@ class LandingPage extends Component {
                             <a href="https://www.dribbble.com/chaseahn" rel="noopener noreferrer" target="_black">
                                 <span></span>
                                 <span></span>
-                                <i class="fa fa-dribbble" aria-hidden="true" />
-                                <text> Dribbble </text>
-                                <i class="fa fa-dribbble" aria-hidden="true" />
+                                <div className="orange">
+                                    <i class="fa fa-dribbble" aria-hidden="true" />
+                                    <text> Dribbble </text>
+                                    <i class="fa fa-dribbble" aria-hidden="true" />
+                                </div>
                             </a>
                         </div>
 
@@ -57,9 +61,11 @@ class LandingPage extends Component {
                             <a href="https://www.linkedin.com/in/chaseahn" rel="noopener noreferrer" target="_black">
                                 <span></span>
                                 <span></span>
-                                <i class="fa fa-linkedin-square" aria-hidden="true" />
-                                <text> Linkedin </text>
-                                <i class="fa fa-linkedin-square" aria-hidden="true" />
+                                <div className="blue">
+                                    <i class="fa fa-linkedin-square" aria-hidden="true" />
+                                    <text> Linkedin </text>
+                                    <i class="fa fa-linkedin-square" aria-hidden="true" />
+                                </div>
                             </a>
                         </div>
                     </Cell>
