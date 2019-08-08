@@ -2,49 +2,74 @@
 import React from 'react';
 import { Component } from 'react';
 import { Grid, Cell, Card, CardTitle, CardText, Button, CardActions} from 'react-mdl';
+import { Link } from 'react-router-dom';
 
 class Projects extends Component {
     render() {
         return(
             <div style={styleSheet} >
                 <Grid className="white-grid">
-                <Cell col={8} offsetDesktop={2} style={{display: 'flex'}}>
 
+                <Cell col={6} offsetDesktop={3}>
+                    <div className="home-button">
+                        <div className="circle-links">
+                            <ul><li>
+                                <a href="/">
+                                    <i class="fa fa-home" aria-hidden="true" />
+                                </a>
+                            </li></ul>
+                        </div>
+                    </div>
+                    <div className="guide-container">
+                        <h1>
+                            Projects
+                        </h1>
+                    </div>
+                </Cell>
+
+                <Cell col={12}>
+                <div className="project-container-body">
+                <div className="project-container-columns">
                 {/* #1 */}
-                <Card shadow={0} style={{width: '320px', height: '320px', margin: 'auto'}}>
-                    <CardTitle expand style={{color: '#fff', background: 'url(http://www.rantsports.com/fantasy/files/2015/07/Odell-Beckham-Bend-It-Like-Beckham-Jr-Copy.jpg) bottom left 5% no-repeat #46B6AC'}}>New York Giants</CardTitle>
+                <Card shadow={0} className="project-box">
+                    <CardTitle expand style={{color: '#fff', background: 'url(https://imagesvc.timeincapp.com/v3/fan/image?url=https://gmenhq.com/wp-content/blogs.dir/31/files/2016/01/odell-beckham-nfl-dallas-cowboys-new-york-giants.jpg&c=sc&w=850&h=566) bottom left 5% no-repeat #46B6AC'}}>New York Football Giants</CardTitle>
                     <CardText>
                         My work with the New York Football Giants.
                     </CardText>
                     <CardActions border>
-                        <Button colored>View</Button>
+                        <Button colored>
+                        <Link to="/nyg">View</Link></Button>
                     </CardActions>
                 </Card>
 
                 {/* #2 */}
-                <Card shadow={0} style={{width: '320px', height: '320px', margin: 'auto'}}>
-                    <CardTitle expand style={{color: '#fff', background: 'url(http://www.getmdl.io/assets/demos/dog.png) bottom right 15% no-repeat #46B6AC'}}>Update</CardTitle>
+                <Card shadow={0} className="project-box">
+                    <CardTitle expand style={{color: '#fff', background: 'url(http://www.getmdl.io/assets/demos/dog.png) bottom right 15% no-repeat #46B6AC'}}>Venture Kicks</CardTitle>
                     <CardText>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Aenan convallis.
+                        Sneaker Management App - Flask/Python.
                     </CardText>
                     <CardActions border>
-                        <Button colored>View Updates</Button>
+                        <Button colored>Demo</Button>
+                        <Button colored>Source</Button>
                     </CardActions>
                 </Card>
 
                 {/* #3 */}
-                <Card shadow={0} style={{width: '320px', height: '320px', margin: 'auto'}}>
+                <Card shadow={0} className="project-box">
                     <CardTitle expand style={{color: '#fff', background: 'url(http://www.getmdl.io/assets/demos/dog.png) bottom right 15% no-repeat #46B6AC'}}>Betfluent - Deposit</CardTitle>
                     <CardText>
                         Building trust with UX/UI on deposit page.
                     </CardText>
                     <CardActions border>
-                        <Button colored>View Updates</Button>
+                        <Button colored>Case Study</Button>
                     </CardActions>
                 </Card>
 
+                </div>
+                </div>
+
                 </Cell>
+
                 </Grid>
             </div>
         )
