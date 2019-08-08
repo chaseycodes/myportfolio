@@ -49,8 +49,8 @@ class Projects extends Component {
                         Sneaker Management App - Flask/Python.
                     </CardText>
                     <CardActions border>
-                        <Button colored>Demo</Button>
-                        <Button colored>Source</Button>
+                        <Button colored><Link to="http://www.venturekicks.com" target="_blank">Demo</Link></Button>
+                        <Button colored><Link to="https://www.github.com" target="_blank">Source</Link></Button>
                     </CardActions>
                 </Card>
 
@@ -61,7 +61,7 @@ class Projects extends Component {
                         Building trust with UX/UI on deposit page.
                     </CardText>
                     <CardActions border>
-                        <Button colored>Case Study</Button>
+                        <Button colored><Link to="/trust-with-deposit">View</Link></Button>
                     </CardActions>
                 </Card>
 

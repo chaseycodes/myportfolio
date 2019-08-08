@@ -48,41 +48,140 @@ class AboutMe extends Component {
                                 <div class="box">
                                     {/* Characteristic #1 */}
                                     <h2>1</h2>
-                                    <h3>Versatile</h3>
-                                    <p>
-                                        My passion in both Design & 
-                                        Development has taught me many 
-                                        amazing platforms, tools, and
-                                        talents.
-                                    </p>
+                                    <h3>Design</h3>
+
                                     <div className="char-button-container">
-                                        <a href="/" rel="noopener noreferrer" target="_black">
+                                        <a rel="noopener noreferrer">
                                             <span></span>
                                             <span></span>
                                             <div>
-                                                <text> VIEW MY SKILLS </text>
+                                                <text> XD </text>
+                                            </div>
+                                        </a>
+                                    </div>
+
+                                    <div className="char-button-container">
+                                        <a rel="noopener noreferrer">
+                                            <span></span>
+                                            <span></span>
+                                            <div>
+                                                <text> AfterEffects </text>
+                                            </div>
+                                        </a>
+                                    </div>
+
+                                    <div className="char-button-container">
+                                        <a rel="noopener noreferrer">
+                                            <span></span>
+                                            <span></span>
+                                            <div>
+                                                <text> Photoshop </text>
+                                            </div>
+                                        </a>
+                                    </div>
+
+                                    <div className="char-button-container">
+                                        <a rel="noopener noreferrer">
+                                            <span></span>
+                                            <span></span>
+                                            <div>
+                                                <text> Illustrator </text>
+                                            </div>
+                                        </a>
+                                    </div>
+
+                                    <div className="char-button-container">
+                                        <a rel="noopener noreferrer">
+                                            <span></span>
+                                            <span></span>
+                                            <div>
+                                                <text> Premerie Pro </text>
+                                            </div>
+                                        </a>
+                                    </div>
+
+                                    <div className="char-button-container">
+                                        <a rel="noopener noreferrer">
+                                            <span></span>
+                                            <span></span>
+                                            <div>
+                                                <text> Dreamweaver </text>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <div class="box">
+                                    <h2>2</h2>
+                                    <h3>Development</h3>
+
+                                    <div className="char-button-container">
+                                        <a rel="noopener noreferrer">
+                                            <span></span>
+                                            <span></span>
+                                            <div>
+                                                <text> JavaScript </text>
+                                            </div>
+                                        </a>
+                                    </div>
+
+                                    <div className="char-button-container">
+                                        <a rel="noopener noreferrer">
+                                            <span></span>
+                                            <span></span>
+                                            <div>
+                                                <text> Python </text>
+                                            </div>
+                                        </a>
+                                    </div>
+
+                                    <div className="char-button-container">
+                                        <a rel="noopener noreferrer">
+                                            <span></span>
+                                            <span></span>
+                                            <div>
+                                                <text> HTML / CSS </text>
+                                            </div>
+                                        </a>
+                                    </div>
+
+                                    <div className="char-button-container">
+                                        <a rel="noopener noreferrer">
+                                            <span></span>
+                                            <span></span>
+                                            <div>
+                                                <text> React </text>
+                                            </div>
+                                        </a>
+                                    </div>
+
+                                    <div className="char-button-container">
+                                        <a rel="noopener noreferrer">
+                                            <span></span>
+                                            <span></span>
+                                            <div>
+                                                <text> React Native </text>
+                                            </div>
+                                        </a>
+                                    </div>
+
+                                    <div className="char-button-container">
+                                        <a rel="noopener noreferrer">
+                                            <span></span>
+                                            <span></span>
+                                            <div>
+                                                <text> Flask </text>
                                             </div>
                                         </a>
                                     </div>
                                 </div>
                                 <div class="box">
-                                    <h2>2</h2>
-                                    <h3>Accountable</h3>
-                                    <p>
-                                        My understanding in the many disciplines 
-                                        of development allow me to produce & 
-                                        enhance projects, complete hard  
-                                        deadlines, and manage others. 
-                                    </p>
-                                </div>
-                                <div class="box">
                                     <h2>3</h2>
-                                    <h3>Contact</h3>
-                                    <div className="contact-icon">
-                                        <i class="fa fa-envelope" aria-hidden="true" />
-                                    </div>
+                                    <h3>Skills</h3>
                                     <p>
-                                        chaseahn4@gmail.com
+                                    <b>Design:</b> UX vision • UI graphics • Strategy presentations • User flows • Wireframes & mock ups • Motion design • Style guides & component library  {"\n"}
+                                    <b>Prototyping:</b> Interactive flow with HTML/CSS/JS • Frameworks & APIs {"\n"}
+                                    <b>Research:</b> Data analysis (Pandas, Numpy) • Task management • A/B Testing & Experiment
                                     </p>
                                 </div>
                             </div>
