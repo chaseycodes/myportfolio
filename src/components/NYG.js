@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import { Grid, Cell, Card, CardTitle, CardText, Button, CardActions} from 'react-mdl';
 import { Link } from 'react-router-dom';
+import InstagramEmbed from 'react-instagram-embed';
+ 
 
 import Background from '../images/giantsbg.png';
 
@@ -8,35 +10,61 @@ class NYG extends Component {
     render() {
         return (
             <div style={styleSheet}>
-                <Grid className="giants-container">
-                    <Cell col={6} offsetDesktop={3}>
-                        <div className="home-button">
-                            <div className="circle-links">
-                                <ul><li>
-                                    <a href="/">
-                                        <i class="fa fa-home" aria-hidden="true" />
-                                    </a>
-                                </li></ul>
-                            </div>
+                <Grid>
+                    <div className="home-button">
+                        <div className="circle-links">
+                            <ul><li>
+                                <a href="/">
+                                    <i class="fa fa-home" aria-hidden="true" />
+                                </a>
+                            </li></ul>
                         </div>
-                        <div className="guide-container">
-                            <h1>
-                                Giants
-                            </h1>
+                    </div>
+                    <Cell col={12} offsetDesktop={1}></Cell>
+                    <Cell col={4} offsetDesktop={1}>
+                        <div className="guide-container-left">
+                            <h3>NEW YORK FOOTBALL</h3>
+                            <h1>Giants</h1>
                             <p>
-                                Front-End Product Designer with years of 
-                                experience in design, capable of crafting 
-                                beautiful and realistic products. Currently, 
-                                I operate as Lead Product Designer for 
-                                Betfluent, and my past experiences include 
-                                Motion Designer for the New York Football 
-                                Giants, and Assistant Producer for ESPN+.
+                                While collorating with a wonderfully talented 
+                                team, I operated as a Motion Designer, Video 
+                                Editor, Audio Engineer, and Producer. Our 
+                                speciality and focus was on producing content 
+                                for all social media sites and television 
+                                networks, stadium gameday graphics , and 
+                                sponsership promotion. I held lead design on 
+                                several mini web series, such as Social Buzz.
                             </p>
-                            <img 
-                                src={Background}
-                                alt="profile"
-                                className="profile-image"
-                            />
+                        </div>
+                    </Cell>
+                    <Cell col={12} offsetDesktop={1}>
+                        <div className="instagram-embed">
+                            <InstagramEmbed
+                                url='https://www.instagram.com/p/BlV0YvVnBaY/'
+                                maxWidth={320}
+                                hideCaption={false}
+                                containerTagName='div'
+                                protocol=''
+                                injectScript
+                                onLoading={() => {}}
+                                onSuccess={() => {}}
+                                onAfterRender={() => {}}
+                                onFailure={() => {}}
+                                className="instagram-embed"
+                                />
+                            <InstagramEmbed
+                                url='https://www.instagram.com/p/BlV0YvVnBaY/'
+                                maxWidth={320}
+                                hideCaption={false}
+                                containerTagName='div'
+                                protocol=''
+                                injectScript
+                                onLoading={() => {}}
+                                onSuccess={() => {}}
+                                onAfterRender={() => {}}
+                                onFailure={() => {}}
+                                className="instagram-embed"
+                                />
                         </div>
                     </Cell>
                 </Grid>
