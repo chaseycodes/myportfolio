@@ -21,7 +21,7 @@ class NYG extends Component {
                         </div>
                     </div>
                     <Cell col={12} offsetDesktop={1}></Cell>
-                    <Cell col={4} offsetDesktop={1}>
+                    <Cell col={4} offsetDesktop={4}>
                         <div className="guide-container-left">
                             <h3>NEW YORK FOOTBALL</h3>
                             <h1>Giants</h1>
@@ -37,9 +37,77 @@ class NYG extends Component {
                             </p>
                         </div>
                     </Cell>
-                    <Cell col={12} offsetDesktop={1}>
-                        <div className="instagram-embed">
-                            <InstagramEmbed
+                    <Cell col={12}>
+                        <div className="ig-body">
+                            <div className="ig-columns">
+                                <div>
+                                    <InstagramEmbed
+                                url='https://www.instagram.com/p/BqBJyv5Ay95/'
+                                maxWidth={320}
+                                hideCaption={false}
+                                containerTagName='div'
+                                protocol=''
+                                injectScript
+                                onLoading={() => {}}
+                                onSuccess={() => {}}
+                                onAfterRender={() => {}}
+                                onFailure={() => {}}
+                                className="instagram-embed"
+                                />
+                                </div>
+                                <div>
+                                <InstagramEmbed
+                                url='https://www.instagram.com/p/BpasWlPgutF/'
+                                maxWidth={320}
+                                hideCaption={false}
+                                containerTagName='div'
+                                protocol=''
+                                injectScript
+                                onLoading={() => {}}
+                                onSuccess={() => {}}
+                                onAfterRender={() => {}}
+                                onFailure={() => {}}
+                                className="instagram-embed"
+                                />
+                                </div>
+                                <div>
+                                <InstagramEmbed
+                                url='https://www.instagram.com/p/BlWnmhnl-th/'
+                                maxWidth={320}
+                                hideCaption={false}
+                                containerTagName='div'
+                                protocol=''
+                                injectScript
+                                onLoading={() => {}}
+                                onSuccess={() => {}}
+                                onAfterRender={() => {}}
+                                onFailure={() => {}}
+                                className="instagram-embed"
+                                />
+                                </div>
+                            </div>
+                        </div>
+                    </Cell>
+                    <Cell col={12}>
+                        <div className="ig-body">
+                            <div className="ig-columns">
+                                <div>
+                                    <InstagramEmbed
+                                url='https://www.instagram.com/p/BmPE-0TnV1Y/'
+                                maxWidth={320}
+                                hideCaption={false}
+                                containerTagName='div'
+                                protocol=''
+                                injectScript
+                                onLoading={() => {}}
+                                onSuccess={() => {}}
+                                onAfterRender={() => {}}
+                                onFailure={() => {}}
+                                className="instagram-embed"
+                                />
+                                </div>
+                                <div>
+                                <InstagramEmbed
                                 url='https://www.instagram.com/p/BlV0YvVnBaY/'
                                 maxWidth={320}
                                 hideCaption={false}
@@ -52,8 +120,10 @@ class NYG extends Component {
                                 onFailure={() => {}}
                                 className="instagram-embed"
                                 />
-                            <InstagramEmbed
-                                url='https://www.instagram.com/p/BlV0YvVnBaY/'
+                                </div>
+                                <div>
+                                <InstagramEmbed
+                                url='https://www.instagram.com/p/BiFyzJMnl-a/'
                                 maxWidth={320}
                                 hideCaption={false}
                                 containerTagName='div'
@@ -65,6 +135,8 @@ class NYG extends Component {
                                 onFailure={() => {}}
                                 className="instagram-embed"
                                 />
+                                </div>
+                            </div>
                         </div>
                     </Cell>
                 </Grid>
@@ -79,6 +151,7 @@ const styleSheet = {
     backgroundImage: `url(${Background})`,
     backgroundRepeat  : 'no-repeat',
     backgroundSize: 'cover'
+ 
 
 }
 

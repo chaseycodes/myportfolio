@@ -179,7 +179,7 @@ class AboutMe extends Component {
                                     <h2>3</h2>
                                     <h3>Skills</h3>
                                     <p>
-                                    <b>Design:</b> UX vision • UI graphics • Strategy presentations • User flows • Wireframes & mock ups • Motion design • Style guides & component library  {"\n"}
+                                    <b>Design:</b> UX vision • UI graphics • Strategy presentations • User flows • Wireframes & mock ups • Motion design • Style guides & component libraries {"\n"}
                                     <b>Prototyping:</b> Interactive flow with HTML/CSS/JS • Frameworks & APIs {"\n"}
                                     <b>Research:</b> Data analysis (Pandas, Numpy) • Task management • A/B Testing & Experiment
                                     </p>
@@ -187,15 +187,22 @@ class AboutMe extends Component {
                             </div>
                         </div>
                     </Cell>
-                    <Cell col={6} offsetDesktop={3}>
-                        <div className="guide-container">
-                            <a href="/">
-                                    <i class="fa fa-envelope" aria-hidden="true" />
-                                </a>
-                            <h1>
-                                chaseahn@gmail.com
-                            </h1>
+
+                    <Cell col={12}>
+                    <div className="guide-container">
+                        <div className="aboutme-button">
+                            <a href="/"><span>View My Projects</span></a>
                         </div>
+                        <div className="aboutme-button">
+                            <a href="/"><span>View My Experience</span></a>
+                        </div>
+                        <div className="aboutme-button">
+                            <a href="/"><span>View My Resume</span></a>
+                        </div>
+                    </div>
+                    <div className="padding">
+                         
+                    </div>
                     </Cell>
                 </Grid>
             </div>

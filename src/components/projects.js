@@ -4,6 +4,9 @@ import { Component } from 'react';
 import { Grid, Cell, Card, CardTitle, CardText, Button, CardActions} from 'react-mdl';
 import { Link } from 'react-router-dom';
 
+import Giants from '../images/Giants.jpg';
+
+
 class Projects extends Component {
     render() {
         return(
@@ -32,7 +35,7 @@ class Projects extends Component {
                 <div className="project-container-columns">
                 {/* #1 */}
                 <Card shadow={0} className="project-box">
-                    <CardTitle expand style={{color: '#fff', background: 'url(https://imagesvc.timeincapp.com/v3/fan/image?url=https://gmenhq.com/wp-content/blogs.dir/31/files/2016/01/odell-beckham-nfl-dallas-cowboys-new-york-giants.jpg&c=sc&w=850&h=566) bottom left 5% no-repeat #46B6AC'}}>New York Football Giants</CardTitle>
+                    <CardTitle expand style={{color: '#fff', background: `url(${Giants}) `}}>New York Football Giants</CardTitle>
                     <CardText>
                         My work with the New York Football Giants.
                     </CardText>
@@ -44,6 +47,36 @@ class Projects extends Component {
 
                 {/* #2 */}
                 <Card shadow={0} className="project-box">
+                    <CardTitle expand style={{color: '#fff', background: 'url(https://imagesvc.timeincapp.com/v3/fan/image?url=https://gmenhq.com/wp-content/blogs.dir/31/files/2016/01/odell-beckham-nfl-dallas-cowboys-new-york-giants.jpg&c=sc&w=850&h=566)'}}>Betfluent Redesign</CardTitle>
+                    <CardText>
+                        Creating a new styleguide for Betfluent.
+                    </CardText>
+                    <CardActions border>
+                        <Button colored>
+                        <Link to="/nyg">View</Link></Button>
+                    </CardActions>
+                </Card>
+
+                {/* #3 */}
+                <Card shadow={0} className="project-box">
+                    <CardTitle expand style={{color: '#fff', background: 'url(http://www.getmdl.io/assets/demos/dog.png) bottom right 15% no-repeat #46B6AC'}}>Betfluent - Deposit</CardTitle>
+                    <CardText>
+                        Building trust with UX/UI on deposit page.
+                    </CardText>
+                    <CardActions border>
+                        <Button colored><Link to="/trust-with-deposit">View</Link></Button>
+                    </CardActions>
+                </Card>
+
+                </div>
+                </div>
+
+                </Cell>
+                <Cell col={12}>
+                <div className="project-container-body">
+                <div className="project-container-columns">
+                {/* #1 */}
+                <Card shadow={0} className="project-box">
                     <CardTitle expand style={{color: '#fff', background: 'url(http://www.getmdl.io/assets/demos/dog.png) bottom right 15% no-repeat #46B6AC'}}>Venture Kicks</CardTitle>
                     <CardText>
                         Sneaker Management App - Flask/Python.
@@ -54,11 +87,22 @@ class Projects extends Component {
                     </CardActions>
                 </Card>
 
+                {/* #2 */}
+                <Card shadow={0} className="project-box">
+                    <CardTitle expand style={{color: '#fff', background: 'url(http://www.getmdl.io/assets/demos/dog.png) bottom right 15% no-repeat #46B6AC'}}>Venture Kicks</CardTitle>
+                    <CardText>
+                        My work as a video editor and motions graphics designer.
+                    </CardText>
+                    <CardActions border>
+                        <Button colored><Link to="http://www.vimeo.com/chaseahn" target="_blank">View</Link></Button>
+                    </CardActions>
+                </Card>
+
                 {/* #3 */}
                 <Card shadow={0} className="project-box">
-                    <CardTitle expand style={{color: '#fff', background: 'url(http://www.getmdl.io/assets/demos/dog.png) bottom right 15% no-repeat #46B6AC'}}>Betfluent - Deposit</CardTitle>
+                    <CardTitle expand style={{color: '#fff', background: 'url(http://www.getmdl.io/assets/demos/dog.png) bottom right 15% no-repeat #46B6AC'}}>Dribbble</CardTitle>
                     <CardText>
-                        Building trust with UX/UI on deposit page.
+                        Dribble UI Concepts.
                     </CardText>
                     <CardActions border>
                         <Button colored><Link to="/trust-with-deposit">View</Link></Button>

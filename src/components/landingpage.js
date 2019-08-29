@@ -20,14 +20,24 @@ class LandingPage extends Component {
 
                         <div className="banner-text">
                             <h1>
-                                Chase
+                                Chase Ahn
                             </h1>
                             <p>
                                 Lead Product Designer at Betfluent
                             </p>
-                            <p>
-                                Learn more about me <a href="/aboutme">here</a> 
-                            </p>
+                        </div>
+
+                        {/* About */}
+                        <div className="button-container">
+                            <a href="/aboutme" rel="noopener noreferrer">
+                                <span></span>
+                                <span></span>
+                                <div className="green">
+                                    <i class="fa  fa-user-circle" aria-hidden="true" />
+                                    <text> About me </text>
+                                    <i class="fa  fa-user-circle" aria-hidden="true" />
+                                </div>
+                            </a>
                         </div>
 
                         {/* Github */}
@@ -81,14 +91,14 @@ class LandingPage extends Component {
                         <div className="circle-links">
                             <ul>
 
-                                <li><a href="/" target="_blank"><i class="fa fa-code" aria-hidden="true" /></a>
+                                <li><a href="/" target="_blank"><i class="fa fa-file-code-o" aria-hidden="true" /></a>
                                 <text className="text-adjust">Projects</text></li>
 
-                                <li><a href="/" target="_blank"><i class="fa fa-fire" aria-hidden="true" /></a>
-                                <text className="text-adjust">Skills</text></li>
+                                <li><a href="/" target="_blank"><i class="fa fa-pencil" aria-hidden="true" /></a>
+                                <text className="text-adjust">Resume</text></li>
 
-                                <li><a href="/" target="_blank"><i class="fa fa-rocket" aria-hidden="true" /></a>
-                                <text>Experience</text></li>
+                                <li><a href="/" target="_blank"><i class="fa fa-envelope" aria-hidden="true" /></a>
+                                <text>Contact</text></li>
 
                             </ul>
                         </div>
