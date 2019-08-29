@@ -5,6 +5,10 @@ import { Grid, Cell, Card, CardTitle, CardText, Button, CardActions} from 'react
 import { Link } from 'react-router-dom';
 
 import Giants from '../images/Giants.jpg';
+import Video from '../images/videoediting.jpg';
+import Dribbble from '../images/dribbble.jpg';
+import Trust from '../images/trust.jpg';
+import Sneakers from '../images/sneakers.jpg';
 
 
 class Projects extends Component {
@@ -35,7 +39,7 @@ class Projects extends Component {
                 <div className="project-container-columns">
                 {/* #1 */}
                 <Card shadow={0} className="project-box">
-                    <CardTitle expand style={{color: '#fff', background: `url(${Giants}) `}}>New York Football Giants</CardTitle>
+                    <CardTitle expand style={{color: '#fff', background: `url(${Giants})`}}>New York Football Giants</CardTitle>
                     <CardText>
                         My work with the New York Football Giants.
                     </CardText>
@@ -59,7 +63,7 @@ class Projects extends Component {
 
                 {/* #3 */}
                 <Card shadow={0} className="project-box">
-                    <CardTitle expand style={{color: '#fff', background: 'url(http://www.getmdl.io/assets/demos/dog.png) bottom right 15% no-repeat #46B6AC'}}>Betfluent - Deposit</CardTitle>
+                    <CardTitle expand style={{color: '#fff', background: `url(${Trust})`}}>Betfluent - Deposit</CardTitle>
                     <CardText>
                         Building trust with UX/UI on deposit page.
                     </CardText>
@@ -77,7 +81,7 @@ class Projects extends Component {
                 <div className="project-container-columns">
                 {/* #1 */}
                 <Card shadow={0} className="project-box">
-                    <CardTitle expand style={{color: '#fff', background: 'url(http://www.getmdl.io/assets/demos/dog.png) bottom right 15% no-repeat #46B6AC'}}>Venture Kicks</CardTitle>
+                    <CardTitle expand style={{color: '#fff', background:  `url(${Sneakers})`}}>Venture Kicks</CardTitle>
                     <CardText>
                         Sneaker Management App - Flask/Python.
                     </CardText>
@@ -89,9 +93,9 @@ class Projects extends Component {
 
                 {/* #2 */}
                 <Card shadow={0} className="project-box">
-                    <CardTitle expand style={{color: '#fff', background: 'url(http://www.getmdl.io/assets/demos/dog.png) bottom right 15% no-repeat #46B6AC'}}>Venture Kicks</CardTitle>
+                    <CardTitle expand style={{color: '#fff', background: `url(${Video})`}}>Vimeo</CardTitle>
                     <CardText>
-                        My work as a video editor and motions graphics designer.
+                        My work as an editor and motion designer.
                     </CardText>
                     <CardActions border>
                         <Button colored><Link to="http://www.vimeo.com/chaseahn" target="_blank">View</Link></Button>
@@ -100,7 +104,7 @@ class Projects extends Component {
 
                 {/* #3 */}
                 <Card shadow={0} className="project-box">
-                    <CardTitle expand style={{color: '#fff', background: 'url(http://www.getmdl.io/assets/demos/dog.png) bottom right 15% no-repeat #46B6AC'}}>Dribbble</CardTitle>
+                    <CardTitle expand style={{color: '#fff', background: `url(${Dribbble})`}}>Dribbble</CardTitle>
                     <CardText>
                         Dribble UI Concepts.
                     </CardText>
@@ -113,7 +117,6 @@ class Projects extends Component {
                 </div>
 
                 </Cell>
-
                 </Grid>
             </div>
         )
