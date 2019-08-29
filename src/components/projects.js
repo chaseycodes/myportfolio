@@ -16,9 +16,7 @@ class Projects extends Component {
         return(
             <div style={styleSheet} >
                 <Grid className="white-grid">
-
-                <Cell col={6} offsetDesktop={3}>
-                    <div className="home-button">
+                <div className="home-button">
                         <div className="circle-links">
                             <ul><li>
                                 <a href="/">
@@ -26,7 +24,9 @@ class Projects extends Component {
                                 </a>
                             </li></ul>
                         </div>
-                    </div>
+                </div>
+
+                <Cell col={12}>
                     <div className="guide-container">
                         <h1>
                             Projects

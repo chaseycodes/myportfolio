@@ -30,9 +30,9 @@ class AboutMe extends Component {
                                 Hello, I'm Chase!
                             </h1>
                             <p>
-                                Front-End Product Designer with 3+ years of 
-                                experience in design, full-stack graduate of Byte 
-                                Academy, and Northeastern Alum. Currently, 
+                                Front-End Product Designer with years of 
+                                experience in design, capable of crafting 
+                                beautiful and realistic products. Currently, 
                                 I operate as Lead Product Designer for 
                                 Betfluent, and my past experiences include 
                                 Motion Designer for the New York Football 
@@ -191,13 +191,13 @@ class AboutMe extends Component {
                     <Cell col={12}>
                     <div className="guide-container">
                         <div className="aboutme-button">
-                            <a href="/"><span>Projects</span></a>
+                            <a href="/"><span>View My Projects</span></a>
                         </div>
                         <div className="aboutme-button">
-                            <a href="/"><span>Experience</span></a>
+                            <a href="/"><span>View My Experience</span></a>
                         </div>
                         <div className="aboutme-button">
-                            <a href="/"><span>Contact</span></a>
+                            <a href="/"><span>View My Resume</span></a>
                         </div>
                     </div>
                     <div className="padding">

@@ -13,14 +13,17 @@ function App() {
                 <Navigation>
                     <Link to="/aboutme">About Me</Link>
                     <Link to="/projects">Projects</Link>
-                    <Link to="/aboutme">Skills</Link>
-                    <Link to="/projects">Experience</Link>
+                    <Link to="/experience">Experience</Link>
+                    <Link to="/contact">Contact</Link>
                 </Navigation>
             </Header>
             <Drawer title="Title">
                 <Navigation>
+                    <Link to="/">Home</Link>
                     <Link to="/aboutme">About Me</Link>
                     <Link to="/projects">Projects</Link>
+                    <Link to="/experience">Experience</Link>
+                    <Link to="/contact">Contact</Link>
                 </Navigation>
             </Drawer>
             <Content>
