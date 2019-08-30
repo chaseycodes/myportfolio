@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 import Giants from '../images/Giants.jpg';
 import Video from '../images/videoediting.jpg';
 import Dribbble from '../images/dribbble.jpg';
-import Trust from '../images/trust.jpg';
+import Trust from '../images/trust.png';
 import Sneakers from '../images/sneakers.jpg';
 
 
@@ -15,7 +15,7 @@ class Projects extends Component {
     render() {
         return(
             <div style={styleSheet} >
-                <Grid className="white-grid">
+                <Grid>
                 <div className="home-button">
                         <div className="circle-links">
                             <ul><li>
@@ -28,7 +28,7 @@ class Projects extends Component {
 
                 <Cell col={12}>
                     <div className="guide-container">
-                        <h1>
+                        <h1 className="text-shadow">
                             Projects
                         </h1>
                     </div>
@@ -53,7 +53,7 @@ class Projects extends Component {
                 <Card shadow={0} className="project-box">
                     <CardTitle expand style={{color: '#fff', background: 'url(https://imagesvc.timeincapp.com/v3/fan/image?url=https://gmenhq.com/wp-content/blogs.dir/31/files/2016/01/odell-beckham-nfl-dallas-cowboys-new-york-giants.jpg&c=sc&w=850&h=566)'}}>Betfluent Redesign</CardTitle>
                     <CardText>
-                        Creating a new styleguide for Betfluent.
+                        Creating a new identity for Betfluent.
                     </CardText>
                     <CardActions border>
                         <Button colored>

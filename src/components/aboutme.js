@@ -30,14 +30,29 @@ class AboutMe extends Component {
                                 Hello, I'm Chase!
                             </h1>
                             <p>
-                                Front-End Product Designer with 3+ years of 
+                                Full-Stack Product Designer with <b>3+ years</b> of 
                                 experience in design, full-stack graduate of Byte 
                                 Academy, and Northeastern Alum. Currently, 
-                                I operate as Lead Product Designer for 
+                                I operate as <b>Lead Product Designer</b> for 
                                 Betfluent, and my past experiences include 
                                 Motion Designer for the New York Football 
-                                Giants, and Assistant Producer for ESPN+.
+                                Giants, and Assistant Producer for ESPN+.  
+                                <b> If you want to talk</b>, I am best available at my email: 
+                                <b> contact@ahn.dev</b>.
                             </p>
+                        </div>
+                    </Cell>
+                    <Cell col={12}>
+                        <div className="guide-container">
+                            <div className="aboutme-button">
+                                <a href="/projects"><span>Projects</span></a>
+                            </div>
+                            <div className="aboutme-button">
+                                <a href="/"><span>Experience</span></a>
+                            </div>
+                            <div className="aboutme-button">
+                                <a href="/"><span>Resume</span></a>
+                            </div>
                         </div>
                     </Cell>
                     <Cell col={12}>
@@ -65,7 +80,7 @@ class AboutMe extends Component {
                                             <span></span>
                                             <span></span>
                                             <div>
-                                                <text> AfterEffects </text>
+                                                <text> Photoshop </text>
                                             </div>
                                         </a>
                                     </div>
@@ -75,7 +90,17 @@ class AboutMe extends Component {
                                             <span></span>
                                             <span></span>
                                             <div>
-                                                <text> Photoshop </text>
+                                                <text> Sketch </text>
+                                            </div>
+                                        </a>
+                                    </div>
+
+                                    <div className="char-button-container">
+                                        <a rel="noopener noreferrer">
+                                            <span></span>
+                                            <span></span>
+                                            <div>
+                                                <text> Aftereffects </text>
                                             </div>
                                         </a>
                                     </div>
@@ -96,16 +121,6 @@ class AboutMe extends Component {
                                             <span></span>
                                             <div>
                                                 <text> Premerie Pro </text>
-                                            </div>
-                                        </a>
-                                    </div>
-
-                                    <div className="char-button-container">
-                                        <a rel="noopener noreferrer">
-                                            <span></span>
-                                            <span></span>
-                                            <div>
-                                                <text> Dreamweaver </text>
                                             </div>
                                         </a>
                                     </div>
@@ -179,30 +194,13 @@ class AboutMe extends Component {
                                     <h2>3</h2>
                                     <h3>Skills</h3>
                                     <p>
-                                    <b>Design:</b> UX vision • UI graphics • Strategy presentations • User flows • Wireframes & mock ups • Motion design • Style guides & component libraries {"\n"}
-                                    <b>Prototyping:</b> Interactive flow with HTML/CSS/JS • Frameworks & APIs {"\n"}
-                                    <b>Research:</b> Data analysis (Pandas, Numpy) • Task management • A/B Testing & Experiment
+                                    <b>Design:</b> UX vision • UI graphics • Strategy presentations • User flows • Wireframes & mock ups • Motion design • Style guides & component libraries < br />
+                                    <b>Prototyping:</b> Interactive flow with HTML/CSS/JS • Frameworks & APIs < br />
+                                    <b>Research:</b> Data analysis (Pandas, NumPy) • Task management • A/B Testing & Experiment
                                     </p>
                                 </div>
                             </div>
                         </div>
-                    </Cell>
-
-                    <Cell col={12}>
-                    <div className="guide-container">
-                        <div className="aboutme-button">
-                            <a href="/"><span>Projects</span></a>
-                        </div>
-                        <div className="aboutme-button">
-                            <a href="/"><span>Experience</span></a>
-                        </div>
-                        <div className="aboutme-button">
-                            <a href="/"><span>Contact</span></a>
-                        </div>
-                    </div>
-                    <div className="padding">
-                         
-                    </div>
                     </Cell>
                 </Grid>
             </div>

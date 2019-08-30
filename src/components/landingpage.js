@@ -91,7 +91,7 @@ class LandingPage extends Component {
                         <div className="circle-links">
                             <ul>
 
-                                <li><a href="/projects" target="_blank"><i class="fa fa-file-code-o" aria-hidden="true" /></a>
+                                <li><a href="/projects"><i class="fa fa-file-code-o" aria-hidden="true" /></a>
                                 <text className="text-adjust">Projects</text></li>
 
                                 <li><a href="/" target="_blank"><i class="fa fa-pencil" aria-hidden="true" /></a>
