@@ -9,6 +9,8 @@ import color from '../images/color.png';
 import fonts from '../images/fonts.png';
 import example from '../images/example.png';
 import logo from '../images/logos.png';
+import compare from '../images/compare.png';
+import phone from '../images/phonemock.png';
 
 class CaseOne extends Component {
     render() {
@@ -142,12 +144,25 @@ class CaseOne extends Component {
                             <p>
                                 Finally, I incorporate all these elements into a UI
                                 design that <b>makes sense</b> and gives prospective users
-                                an idea what their signing up for. User's must know 
-                                what we do, what we stand for, and we practice ethical
-                                programming. By putting a greater emphasis on our UI
-                                users inherently feel trust and validation in their 
-                                decisions to join our platform. 
+                                an idea what their signing up for. Users must know 
+                                what we do, what we stand for, and how we intend to deliver
+                                on our promises. By putting greater emphasis and detail on UI,
+                                any potential users will feel confidence and validation in their 
+                                decision to join our platform. 
                             </p>
+                            <h3>
+                                Final Result
+                            </h3>
+                            <img 
+                                src={compare}
+                                alt="betfluent"
+                                className="case-image"
+                            />
+                            <img 
+                                src={phone}
+                                alt="betfluent"
+                                className="case-image"
+                            />
                         </div>
                     </Cell>
                     
