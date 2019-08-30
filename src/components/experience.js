@@ -22,17 +22,12 @@ class AboutMe extends Component {
                         </div>
 
                         <div className="guide-container">
-                            <img 
-                                src={ProfilePicture}
-                                alt="profile"
-                                className="profile-image"
-                            />
                             <h1>
                                 Work Experience
                             </h1>
-                            <p>
-                                adwdwadwa
-                            </p>
+                            <h2>
+                                Betfluent
+                            </h2>
                         </div>
                     </Cell>
                     

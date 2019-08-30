@@ -14,8 +14,8 @@ class NYG extends Component {
                     <div className="home-button">
                         <div className="circle-links">
                             <ul><li>
-                                <a href="/">
-                                    <i class="fa fa-home" aria-hidden="true" />
+                                <a href="/projects">
+                                    <i class="fa fa-reply" aria-hidden="true" />
                                 </a>
                             </li></ul>
                         </div>
@@ -148,7 +148,7 @@ class NYG extends Component {
 const styleSheet = {
     width: "100%",
     margin: "auto",
-    backgroundImage: `url(${Background})`,
+    background: 'linear-gradient(to right bottom, #0f0c29, #0575E6)',
     backgroundRepeat  : 'no-repeat',
     backgroundSize: 'cover'
  

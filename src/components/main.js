@@ -12,7 +12,6 @@ const Main = () => (
         <Route exact path="/" component={LandingPage} />
         <Route path="/aboutme" component={AboutMe} />
         <Route path="/projects" component={Projects} />
-        <Route path="/experience" component={Experience} />
         <Route path="/nyg" component={NYG} />
     </Switch>
 );

@@ -48,10 +48,10 @@ class AboutMe extends Component {
                                 <a href="/projects"><span>Projects</span></a>
                             </div>
                             <div className="aboutme-button">
-                                <a href="/experience"><span>Experience</span></a>
+                                <a href="/resume"><span>Resume</span></a>
                             </div>
                             <div className="aboutme-button">
-                                <a href="/"><span>Resume</span></a>
+                                <a href="/contact"><span>Contact</span></a>
                             </div>
                         </div>
                     </Cell>

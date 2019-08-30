@@ -325,6 +325,15 @@ body {
   margin-top: 30px;
 }
 
+.guide-container h2 {
+  font-size: 35px;
+  font-weight: bold;
+  color: white;
+  padding: 0;
+  font-family: 'Montserrat', serif;
+  margin-top: 30px;
+}
+
 .text-shadow {
   text-shadow: 2px 2px 2px rgba(36, 33, 33, 0.4);
 }
@@ -699,4 +708,81 @@ body {
   border-radius: 60px;
   transform-style: preserve-3d;
   transform: perspective(500px) translateZ(15px);
+}
+
+.back-button {
+  position: fixed;
+  bottom: 80px;
+  right: 15px; 
+  z-index: 5;
+}
+
+.back-button .circle-links {
+  margin: 0;
+  padding: 0;
+}
+
+.back-button .circle-links ul {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0;
+  margin-top: 50px;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.back-button .circle-links ul li {
+  list-style: none;
+}
+
+.back-button .circle-links ul li text .text-adjust {
+  padding: 10em;
+}
+
+.back-button .circle-links ul li a {
+  position: relative;
+  width: 60px;
+  height: 60px;
+  background: #f1f1f1;
+  display: block;
+  text-align: center;
+  margin: 0 10px;
+  border-radius: 50%;
+  padding: 6px;
+  box-sizing: border-box;
+  text-decoration: none;
+  box-shadow: 0 8px 8px rgba(0,0,0,.2);
+  transition: .5s;
+  background: linear-gradient(0deg, #fff, #ddd)
+}
+
+.back-button .circle-links ul text {
+  color: rgb(247, 237, 101);
+  font-size: 12px;
+  margin-top: 10px;
+  position: relative;
+}
+
+.back-button .circle-links ul li a:hover {
+  box-shadow: 0 3px 5px rgba(0,0,0,0.1);
+}
+
+.back-button .circle-links ul li a .fa {
+  width: 100%;
+  height: 100%;
+  display: block;
+  background: linear-gradient(0deg, #fff, rgb(193, 169, 212));
+  border-radius: 50%;
+  line-height: calc(60px - 12px);
+  font-size: 24px;
+  color: rgb(255, 255, 255);
+  transition: .5s;
+}
+
+.back-button .circle-links ul li:nth-child(1) a:hover .fa {
+  color: #010003;
 }

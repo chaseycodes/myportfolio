@@ -20,8 +20,8 @@ class Projects extends Component {
                 <div className="home-button">
                         <div className="circle-links">
                             <ul><li>
-                                <a href="/">
-                                    <i class="fa fa-home" aria-hidden="true" />
+                                <a href="/aboutme">
+                                    <i class="fa fa-reply" aria-hidden="true" />
                                 </a>
                             </li></ul>
                         </div>
