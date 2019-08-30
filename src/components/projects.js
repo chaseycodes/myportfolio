@@ -58,7 +58,7 @@ class Projects extends Component {
                     </CardText>
                     <CardActions border>
                         <Button colored>
-                        <Link to="/nyg">View Case Study</Link></Button>
+                        <Link to="/betfluent-redesign">View Case Study</Link></Button>
                     </CardActions>
                 </Card>
 
