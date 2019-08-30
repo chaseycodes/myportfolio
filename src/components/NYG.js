@@ -4,8 +4,6 @@ import { Link } from 'react-router-dom';
 import InstagramEmbed from 'react-instagram-embed';
  
 
-import Background from '../images/giantsbg.png';
-
 class NYG extends Component {
     render() {
         return (
