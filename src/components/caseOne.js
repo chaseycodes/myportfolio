@@ -8,6 +8,7 @@ import other from '../images/others.png';
 import color from '../images/color.png';
 import fonts from '../images/fonts.png';
 import example from '../images/example.png';
+import logo from '../images/logos.png';
 
 class CaseOne extends Component {
     render() {
@@ -109,7 +110,7 @@ class CaseOne extends Component {
                                 className="case-image"
                             />
                             <p>
-                                My goal was to find a balance of serious, casual,
+                                My goal was to find a balance of serious and modern,
                                 yet friendly and jovial. I believe the combination 
                                 of Monserrat Alternates and Avenir achieve that 
                                 combination. <b>Put together:</b> 
@@ -125,6 +126,28 @@ class CaseOne extends Component {
                             <h3>
                                 <i>Putting the Pieces Together</i>
                             </h3>
+                            <p>
+                                The next step after creating the color scheme, fonts,
+                                and text heicharcy was the redesign the logo. The 
+                                original 'bf' logo was not original, forgettable,
+                                and was very similar to BP's logo. Among many iterations
+                                we decided to go with the symbol of a Top Hat
+                                which symbolizes wealth and class. Plus, it's kind of cute!
+                            </p>
+                            <img 
+                                src={logo}
+                                alt="betfluent"
+                                className="case-image"
+                            />
+                            <p>
+                                Finally, I incorporate all these elements into a UI
+                                design that <b>makes sense</b> and gives prospective users
+                                an idea what their signing up for. User's must know 
+                                what we do, what we stand for, and we practice ethical
+                                programming. By putting a greater emphasis on our UI
+                                users inherently feel trust and validation in their 
+                                decisions to join our platform. 
+                            </p>
                         </div>
                     </Cell>
                     
