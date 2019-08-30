@@ -48,7 +48,7 @@ class AboutMe extends Component {
                                 <a href="/projects"><span>Projects</span></a>
                             </div>
                             <div className="aboutme-button">
-                                <a href="/"><span>Experience</span></a>
+                                <a href="/experience"><span>Experience</span></a>
                             </div>
                             <div className="aboutme-button">
                                 <a href="/"><span>Resume</span></a>

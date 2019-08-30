@@ -4,11 +4,12 @@ import { Component } from 'react';
 import { Grid, Cell, Card, CardTitle, CardText, Button, CardActions} from 'react-mdl';
 import { Link } from 'react-router-dom';
 
-import Giants from '../images/Giants.jpg';
+import Giants from '../images/Giants.png';
 import Video from '../images/videoediting.jpg';
 import Dribbble from '../images/dribbble.jpg';
 import Trust from '../images/trust.png';
 import Sneakers from '../images/sneakers.jpg';
+import Redesign from '../images/redesign.png';
 
 
 class Projects extends Component {
@@ -39,7 +40,7 @@ class Projects extends Component {
                 <div className="project-container-columns">
                 {/* #1 */}
                 <Card shadow={0} className="project-box">
-                    <CardTitle expand style={{color: '#fff', background: `url(${Giants})`}}>New York Football Giants</CardTitle>
+                    <CardTitle expand style={{color: '#fff', background: `url(${Giants})`}}>New York Giants</CardTitle>
                     <CardText>
                         My work with the New York Football Giants.
                     </CardText>
@@ -51,13 +52,13 @@ class Projects extends Component {
 
                 {/* #2 */}
                 <Card shadow={0} className="project-box">
-                    <CardTitle expand style={{color: '#fff', background: 'url(https://imagesvc.timeincapp.com/v3/fan/image?url=https://gmenhq.com/wp-content/blogs.dir/31/files/2016/01/odell-beckham-nfl-dallas-cowboys-new-york-giants.jpg&c=sc&w=850&h=566)'}}>Betfluent Redesign</CardTitle>
+                    <CardTitle expand style={{color: '#fff', background: `url(${Redesign})`}}>Betfluent - Redesign</CardTitle>
                     <CardText>
                         Creating a new identity for Betfluent.
                     </CardText>
                     <CardActions border>
                         <Button colored>
-                        <Link to="/nyg">View</Link></Button>
+                        <Link to="/nyg">View Case Study</Link></Button>
                     </CardActions>
                 </Card>
 
@@ -68,7 +69,7 @@ class Projects extends Component {
                         Building trust with UX/UI on deposit page.
                     </CardText>
                     <CardActions border>
-                        <Button colored><Link to="/trust-with-deposit">View</Link></Button>
+                        <Button colored><Link to="/trust-with-deposit">View Case Study</Link></Button>
                     </CardActions>
                 </Card>
 
