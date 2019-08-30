@@ -6,6 +6,7 @@ import AboutMe from './aboutme';
 import Projects from './projects';
 import NYG from './NYG';
 import CaseOne from './caseOne';
+import CaseTwo from './caseTwo';
 
 const Main = () => (
     <Switch>
@@ -13,6 +14,7 @@ const Main = () => (
         <Route path="/aboutme" component={AboutMe} />
         <Route path="/projects" component={Projects} />
         <Route path="/betfluent-redesign" component={CaseOne} />
+        <Route path="/betfluent-deposit" component={CaseTwo} />
         <Route path="/nyg" component={NYG} />
     </Switch>
 );

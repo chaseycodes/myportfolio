@@ -1,7 +1,7 @@
 body {
   background: #ef32d9;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #89fffd, #ef32d9);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #89fffd, #ef32d9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: -webkit-linear-gradient(to right, #302b63, #3b8d99);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #302b63, #3b8d99); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
@@ -13,8 +13,8 @@ body {
   height: 100%;
   text-align: center;
   background: #ef32d9;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #89fffd, #ef32d9);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #89fffd, #ef32d9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: -webkit-linear-gradient(to right, #302b63, #3b8d99);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #302b63, #3b8d99); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .avatar-image {
@@ -447,17 +447,17 @@ body {
 }
 
 .container-body .box:nth-child(1) {
-  background: linear-gradient(45deg, #CF8BF3, #FDB99B);
+  background: linear-gradient(45deg, #f953c6, #a01964);
   box-shadow: 0 5px 5px rgb(207, 139, 243, .4);
 }
 
 .container-body .box:nth-child(2) {
-  background: linear-gradient(45deg, #1D976C, #78ffd6);
+  background: linear-gradient(45deg, #43cea2, #185a9d);
   box-shadow: 0 5px 5px rgb(29, 151, 108, .4);
 }
 
 .container-body .box:nth-child(3) {
-  background: linear-gradient(45deg, #7f7fd5, #91EAE4);
+  background: linear-gradient(45deg, #F8CDDA, #1D2B64);
   box-shadow: 0 5px 5px hsl(240, 51%, 67%, .4);
 }
 
@@ -690,7 +690,7 @@ body {
   position: relative;
   padding: 20px 40px;
   width: 240px;
-  background: linear-gradient(45deg, #9796f0, #fbc7d4);;
+  background: linear-gradient(45deg, #a8c0ff, #3f2b96);;
   color: #fff;
   text-transform: uppercase;
   text-decoration: none; 
