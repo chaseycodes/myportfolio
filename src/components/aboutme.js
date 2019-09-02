@@ -45,13 +45,27 @@ class AboutMe extends Component {
                     <Cell col={12}>
                         <div className="guide-container">
                             <div className="aboutme-button">
-                                <a href="/projects"><span>Projects</span></a>
-                            </div>
-                            <div className="aboutme-button">
                                 <a href="/resume"><span>Resume</span></a>
                             </div>
                             <div className="aboutme-button">
-                                <a href="/contact"><span>Contact</span></a>
+                                <a href="/projects"><span>Projects</span></a>
+                            </div>
+                            <div className="aboutme-button">
+                                <div className="aboutme-button-fa">
+                                    <a href="/resume"><span>
+                                    <i class="fa fa-github" aria-hidden="true" />
+                                    </span></a>
+                                </div>
+                                <div className="aboutme-button-fa">
+                                    <a href="/resume"><span>
+                                    <i class="fa fa-linkedin" aria-hidden="true" />
+                                    </span></a>
+                                </div>
+                                <div className="aboutme-button-fa">
+                                    <a href="/resume"><span>
+                                    <i class="fa fa-dribbble" aria-hidden="true" />
+                                    </span></a>
+                                </div>
                             </div>
                         </div>
                     </Cell>
@@ -193,11 +207,65 @@ class AboutMe extends Component {
                                 <div class="box">
                                     <h2>3</h2>
                                     <h3>Skills</h3>
-                                    <p>
-                                    <b>Design:</b> UX vision • UI graphics • Strategy presentations • User flows • Wireframes & mock ups • Motion design • Style guides & component libraries < br />
-                                    <b>Prototyping:</b> Interactive flow with HTML/CSS/JS • Frameworks & APIs < br />
-                                    <b>Research:</b> Data analysis (Pandas, NumPy) • Task management • A/B Testing & Experiment
-                                    </p>
+                                    <div className="char-button-container">
+                                        <a rel="noopener noreferrer">
+                                            <span></span>
+                                            <span></span>
+                                            <div>
+                                                <text> UX/UI DESIGN </text>
+                                            </div>
+                                        </a>
+                                    </div>
+
+                                    <div className="char-button-container">
+                                        <a rel="noopener noreferrer">
+                                            <span></span>
+                                            <span></span>
+                                            <div>
+                                                <text> WireFrames </text>
+                                            </div>
+                                        </a>
+                                    </div>
+
+                                    <div className="char-button-container">
+                                        <a rel="noopener noreferrer">
+                                            <span></span>
+                                            <span></span>
+                                            <div>
+                                                <text> Prototypes </text>
+                                            </div>
+                                        </a>
+                                    </div>
+
+                                    <div className="char-button-container">
+                                        <a rel="noopener noreferrer">
+                                            <span></span>
+                                            <span></span>
+                                            <div>
+                                                <text> Motion Design </text>
+                                            </div>
+                                        </a>
+                                    </div>
+
+                                    <div className="char-button-container">
+                                        <a rel="noopener noreferrer">
+                                            <span></span>
+                                            <span></span>
+                                            <div>
+                                                <text> Data Analysis </text>
+                                            </div>
+                                        </a>
+                                    </div>
+
+                                    <div className="char-button-container">
+                                        <a rel="noopener noreferrer">
+                                            <span></span>
+                                            <span></span>
+                                            <div>
+                                                <text> Webscraping </text>
+                                            </div>
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -210,7 +278,8 @@ class AboutMe extends Component {
 
 const styleSheet = {
     width: "100%",
-    margin: "auto"
+    margin: "auto",
+    background: "white"
 }
 
 export default AboutMe; 

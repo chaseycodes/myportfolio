@@ -69,7 +69,7 @@ class Projects extends Component {
                         Building trust with UX/UI on deposit page.
                     </CardText>
                     <CardActions border>
-                        <Button colored><Link to="/trust-with-deposit">View Case Study</Link></Button>
+                        <Button colored><Link to="/betfluent-deposit">View Case Study</Link></Button>
                     </CardActions>
                 </Card>
 
