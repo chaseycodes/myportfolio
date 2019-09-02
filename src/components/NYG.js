@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import { Grid, Cell, Card, CardTitle, CardText, Button, CardActions} from 'react-mdl';
 import { Link } from 'react-router-dom';
 import InstagramEmbed from 'react-instagram-embed';
+
+import eli from '../images/eli.png';
  
 
 class NYG extends Component {
@@ -9,6 +11,13 @@ class NYG extends Component {
         return (
             <div style={styleSheet}>
                 <Grid>
+                    <div className="eli">
+                        <img 
+                            src={eli}
+                            alt="betfluent"
+                            className="case-image"
+                        />
+                    </div>
                     <div className="home-button">
                         <div className="circle-links">
                             <ul><li>

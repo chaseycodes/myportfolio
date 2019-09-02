@@ -37,32 +37,31 @@ class AboutMe extends Component {
                                 Betfluent, and my past experiences include 
                                 Motion Designer for the New York Football 
                                 Giants, and Assistant Producer for ESPN+.  
-                                <b> If you want to talk</b>, I am best available at my email: 
-                                <b> contact@ahn.dev</b>.
+                                <b> If you want to talk</b>, I am best available at my email: <a href="mailto:contact@ahn.dev"><b>contact@ahn.dev</b></a>.
                             </p>
                         </div>
                     </Cell>
                     <Cell col={12}>
                         <div className="guide-container">
                             <div className="aboutme-button">
-                                <a href="/resume"><span>Resume</span></a>
-                            </div>
+                                    <a href="/resume"><span>Resume</span></a>
+                                </div>
                             <div className="aboutme-button">
                                 <a href="/projects"><span>Projects</span></a>
                             </div>
                             <div className="aboutme-button">
                                 <div className="aboutme-button-fa">
-                                    <a href="/resume"><span>
+                                    <a href="https://www.github.com/chaseahn" rel="noopener noreferrer" target="_black"><span>
                                     <i class="fa fa-github" aria-hidden="true" />
                                     </span></a>
                                 </div>
                                 <div className="aboutme-button-fa">
-                                    <a href="/resume"><span>
+                                    <a href="https://www.linkedin.com/in/chaseahn" rel="noopener noreferrer" target="_black"><span>
                                     <i class="fa fa-linkedin" aria-hidden="true" />
                                     </span></a>
                                 </div>
                                 <div className="aboutme-button-fa">
-                                    <a href="/resume"><span>
+                                    <a href="https://www.dribbble.com/chaseahn" rel="noopener noreferrer" target="_black"><span>
                                     <i class="fa fa-dribbble" aria-hidden="true" />
                                     </span></a>
                                 </div>
@@ -268,6 +267,9 @@ class AboutMe extends Component {
                                     </div>
                                 </div>
                             </div>
+                        </div>
+                        <div className="padding">
+                             
                         </div>
                     </Cell>
                 </Grid>

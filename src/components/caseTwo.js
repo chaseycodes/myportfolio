@@ -4,6 +4,10 @@ import { Grid, Cell } from 'react-mdl';
 
 import depositnew from '../images/depositnew.gif';
 import depositOriginal from '../images/deposit-original.png';
+import cards from '../images/cards.png';
+import interaction from '../images/interaction.gif';
+import depositver from '../images/depositver.png';
+import depophone from '../images/depophone.png';
 
 class CaseTwo extends Component {
     render() {
@@ -69,6 +73,38 @@ class CaseTwo extends Component {
                                 graphics and interaction. Graphics will display a 
                                 theme and interactions enchance user experience based 
                                 using research to predict behavior. 
+                            </p>
+                            <img 
+                                src={depophone}
+                                alt="betfluent"
+                                className="case-image"
+                            />
+                            <p>
+                                It's a big improvement from its original design. 
+                                We went for a 2-D graphics theme to convey a playful
+                                tone. Even simple graphics that match the identity
+                                style of our design, like the payment card brands,
+                                will help your first impression become a positive one. 
+                            </p>
+                            <img 
+                                src={cards}
+                                alt="betfluent"
+                                className="case-image"
+                            />
+                            <img 
+                                src={interaction}
+                                alt="betfluent"
+                                className="case-image"
+                            />
+                            <p>
+                                Next, some interaction to suggest deposits for
+                                convienice and standard warnings to guide their 
+                                interaction. This also gives us some extra information
+                                about users interacting with reccomended deposits in the future.
+                            </p>
+                            <h3>Result</h3>
+                            <p>
+                                Increased user time and interaction 
                             </p>
                             <img 
                                 src={depositnew}

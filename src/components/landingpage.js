@@ -94,10 +94,10 @@ class LandingPage extends Component {
                                 <li><a href="/projects"><i class="fa fa-file-code-o" aria-hidden="true" /></a>
                                 <text className="text-adjust">Projects</text></li>
 
-                                <li><a href="/" target="_blank"><i class="fa fa-pencil" aria-hidden="true" /></a>
+                                <li><a href="/resume"><i class="fa fa-pencil" aria-hidden="true" /></a>
                                 <text className="text-adjust">Resume</text></li>
 
-                                <li><a href="/contact" target="_blank"><i class="fa fa-envelope" aria-hidden="true" /></a>
+                                <li><a href="mailto:contact@ahn.dev"><i class="fa fa-envelope" aria-hidden="true" /></a>
                                 <text>Contact</text></li>
 
                             </ul>

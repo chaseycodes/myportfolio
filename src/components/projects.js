@@ -84,11 +84,11 @@ class Projects extends Component {
                 <Card shadow={0} className="project-box">
                     <CardTitle expand style={{color: '#fff', background:  `url(${Sneakers})`}}>Venture Kicks</CardTitle>
                     <CardText>
-                        Sneaker Management App - Flask/Python.
+                        Sneaker App - Written in Flask/SQlite.
                     </CardText>
                     <CardActions border>
-                        <Button colored><Link to="http://www.venturekicks.com" target="_blank">Demo</Link></Button>
-                        <Button colored><Link to="https://www.github.com" target="_blank">Source</Link></Button>
+                        <Button colored> <a href="http://www.venturekicks.com" target="_blank">WebSite</a></Button>
+                        <Button colored> <a href="https://github.com/chaseahn/VentureKicks" target="_blank">Source Code</a></Button>
                     </CardActions>
                 </Card>
 
@@ -99,7 +99,7 @@ class Projects extends Component {
                         My work as an editor and motion designer.
                     </CardText>
                     <CardActions border>
-                        <Button colored><Link to="http://www.vimeo.com/chaseahn" target="_blank">View</Link></Button>
+                        <Button> <a href="http://www.vimeo.com/chaseahn" target="_blank">View</a></Button>
                     </CardActions>
                 </Card>
 
@@ -110,11 +110,14 @@ class Projects extends Component {
                         Dribble UI Concepts.
                     </CardText>
                     <CardActions border>
-                        <Button colored><Link to="/trust-with-deposit">View</Link></Button>
+                        <Button colored> <a href="http://www.dribbble.com/chaseahn" target="_blank">View</a></Button>
                     </CardActions>
                 </Card>
 
                 </div>
+                </div>
+                <div className="padding">
+                             
                 </div>
 
                 </Cell>
@@ -126,7 +129,8 @@ class Projects extends Component {
 
 const styleSheet = {
     width: "100%",
-    margin: "auto"
+    margin: "auto",
+    background: "#928DAB"
 }
 
 export default Projects; 
