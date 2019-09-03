@@ -95,19 +95,14 @@ class LandingPage extends Component {
                         <div className="circle-links">
                             <ul>
 
-
-                                <Link to="/projects" style={{ textDecoration: 'none' }}>
                                 <li>
-                                <a href="#"><i class="fa fa-file-code-o" aria-hidden="true" /></a>
+                                <Link to="/projects" className="link"><i class="fa fa-file-code-o" aria-hidden="true" /></Link>
                                 <text className="text-adjust">Projects</text></li>
-                                </Link>
-                                
-                                <Link to="/resume" style={{ textDecoration: 'none' }}>
-                                <li><a href="#"><i class="fa fa-pencil" aria-hidden="true" /></a>
+                            
+                                <li><Link to="/resume" className="link"><i class="fa fa-pencil" aria-hidden="true" /></Link>
                                 <text className="text-adjust">Resume</text></li>
-                                </Link>
 
-                                <li><a href="mailto:contact@ahn.dev"><i class="fa fa-envelope" aria-hidden="true" /></a>
+                                <li><a href="mailto:contact@ahn.dev" className="link"><i class="fa fa-envelope" aria-hidden="true" /></a>
                                 <text>Contact</text></li>
 
                             </ul>

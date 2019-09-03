@@ -18,15 +18,19 @@ class NYG extends Component {
                             className="case-image"
                         />
                     </div>
+
+                    <Link to="/projects" className="link">
                     <div className="home-button">
                         <div className="circle-links">
                             <ul><li>
-                                <a href="/projects">
+                                <a href="#">
                                     <i class="fa fa-reply" aria-hidden="true" />
                                 </a>
                             </li></ul>
                         </div>
                     </div>
+                    </Link>
+                    
                     <Cell col={12} offsetDesktop={1}></Cell>
                     <Cell col={4} offsetDesktop={4}>
                         <div className="guide-container-left">

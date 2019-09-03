@@ -1,6 +1,7 @@
 import React from 'react';
 import { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
+import { Link } from 'react-router-dom';
 
 import depositnew from '../images/depositnew.gif';
 import depositOriginal from '../images/deposit-original.png';
@@ -17,15 +18,18 @@ class CaseTwo extends Component {
 
                     {/* Experience */}
                     <Cell col={6} offsetDesktop={3}>
+
+                        <Link to="/projects" className="link">
                         <div className="home-button">
                             <div className="circle-links">
                                 <ul><li>
-                                    <a href="/projects">
+                                    <a href="#">
                                         <i class="fa fa-reply" aria-hidden="true" />
                                     </a>
                                 </li></ul>
                             </div>
                         </div>
+                        </Link>
                         <div className="case-img-container">
                             {/* <img 
                                 src={deposit}

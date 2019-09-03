@@ -17,15 +17,18 @@ class Projects extends Component {
         return(
             <div style={styleSheet} >
                 <Grid>
+
+                <Link to="/aboutme" className="link">
                 <div className="home-button">
                         <div className="circle-links">
                             <ul><li>
-                                <a href="/aboutme">
+                                <a href="#">
                                     <i class="fa fa-reply" aria-hidden="true" />
                                 </a>
                             </li></ul>
                         </div>
                 </div>
+                </Link>
 
                 <Cell col={12}>
                     <div className="guide-container">
@@ -130,7 +133,7 @@ class Projects extends Component {
 const styleSheet = {
     width: "100%",
     margin: "auto",
-    background: "#928DAB"
+    background: "#302b63"
 }
 
 export default Projects; 

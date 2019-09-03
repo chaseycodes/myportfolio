@@ -232,7 +232,7 @@ body {
   padding: 10em;
 }
 
-.circle-links ul li a {
+.circle-links ul li .link {
   position: relative;
   width: 60px;
   height: 60px;
@@ -258,11 +258,11 @@ body {
   font-weight: 500;
 }
 
-.circle-links ul li a:hover {
+.circle-links ul li .link:hover {
   box-shadow: 0 3px 5px rgba(0,0,0,0.1);
 }
 
-.circle-links ul li a .fa {
+.circle-links ul li .link .fa {
   width: 100%;
   height: 100%;
   display: block;
@@ -274,15 +274,15 @@ body {
   transition: .5s;
 }
 
-.circle-links ul li:nth-child(1) a:hover .fa {
+.circle-links ul li:nth-child(1) .link:hover .fa {
   color: #ff8b8b;
 }
 
-.circle-links ul li:nth-child(2) a:hover .fa {
+.circle-links ul li:nth-child(2) .link:hover .fa {
   color: rgb(255, 251, 134);
 }
 
-.circle-links ul li:nth-child(3) a:hover .fa {
+.circle-links ul li:nth-child(3) .link:hover .fa {
   color: rgb(163, 255, 185);
 }
 
@@ -395,6 +395,7 @@ body {
 }
 
 .text-shadow {
+  background: purple;
   text-shadow: 2px 2px 2px rgba(36, 33, 33, 0.4);
 }
 
@@ -513,7 +514,7 @@ body {
 
 .container-body .box:nth-child(2) {
   background: linear-gradient(45deg, #fe8c00, #f83600);
-  box-shadow: 0 5px 5px rgb(29, 151, 108, .4);
+  box-shadow: 0 5px 5px rgba(238, 150, 18, 0.4);
 }
 
 .container-body .box:nth-child(3) {
