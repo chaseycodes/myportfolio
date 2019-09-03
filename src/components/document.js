@@ -25,6 +25,7 @@ class Resume extends Component {
                             </div>
                         </div>
                         </Link>
+                        
                         <div className="guide-container">
                             <img 
                                 src={resume}
