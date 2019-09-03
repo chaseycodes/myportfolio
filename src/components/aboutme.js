@@ -1,6 +1,7 @@
 import React from 'react';
 import { Component } from 'react';
-import { Grid, Cell } from 'react-mdl';
+import { Grid, Cell, Button} from 'react-mdl';
+import { Link } from 'react-router-dom';
 import ProfilePicture from '../images/profile-alt.png';
 
 class AboutMe extends Component {
@@ -11,15 +12,19 @@ class AboutMe extends Component {
 
                     {/* PROFILE BIO */}
                     <Cell col={6} offsetDesktop={3}>
+                    
+                        <Link to="/" className="link">
                         <div className="home-button">
                             <div className="circle-links">
                                 <ul><li>
-                                    <a href="/">
+                                    <a href="#">
                                         <i class="fa fa-home" aria-hidden="true" />
                                     </a>
                                 </li></ul>
                             </div>
                         </div>
+                        </Link>
+
                         <div className="guide-container">
                             <img 
                                 src={ProfilePicture}
@@ -43,12 +48,32 @@ class AboutMe extends Component {
                     </Cell>
                     <Cell col={12}>
                         <div className="guide-container">
+
                             <div className="aboutme-button">
-                                    <a href="/resume"><span>Resume</span></a>
-                                </div>
-                            <div className="aboutme-button">
-                                <a href="/projects"><span>Projects</span></a>
+                                <Link to="/resume" className="link">
+                                <span>Resume</span>
+                                </Link>
                             </div>
+
+                            
+                            <div className="aboutme-button">
+                                <Link to="/projects" className="link">
+                                <span>Projects</span>
+                                </Link>
+                            </div>
+
+                            {/* <Link to="/resume" className="link">
+                            <div className="aboutme-button">
+                                <a href="#"><span>Resume</span></a>
+                            </div>
+                            </Link>
+
+                            <Link to="/projects" className="link">
+                            <div className="aboutme-button">
+                                <a href="#"><span>Projects</span></a>
+                            </div>
+                            </Link> */}
+
                             <div className="aboutme-button">
                                 <div className="aboutme-button-fa">
                                     <a href="https://www.github.com/chaseahn" rel="noopener noreferrer" target="_black"><span>

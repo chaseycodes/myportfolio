@@ -755,7 +755,7 @@ body {
   margin-top: 5px;
 }
 
-.aboutme-button a {
+.aboutme-button .link {
   position: relative;
   padding: 20px 40px;
   width: 240px;
@@ -770,28 +770,28 @@ body {
   box-shadow: 0 5px 5px rgb(207, 139, 243, .4)
 }
 
-.aboutme-button:nth-child(1) a {
+.aboutme-button:nth-child(1) .link {
   background: linear-gradient(45deg, #93F9B9, #1D976C);
   box-shadow: 0 5px 5px rgba(116, 255, 128, 0.3);
 }
 
-.aboutme-button:nth-child(2) a {
+.aboutme-button:nth-child(2) .link {
   background: linear-gradient(45deg, #89fffd, #ef32d9);
   box-shadow: 0 5px 5px rgba(234, 139, 243, 0.3);
 }
 
-.aboutme-button a:hover {
+.aboutme-button .link:hover {
   transform: rotateX(45deg)
 }
 
-.aboutme-button a span {
+.aboutme-button .link span {
   display: block;
   font-weight: bold;
   transform-style: preserve-3d;
   transform: perspective(100px) translateZ(20px);
 }
 
-.aboutme-button a:before {
+.aboutme-button .link:before {
   content: '';
   position: absolute;
   top: 4px;

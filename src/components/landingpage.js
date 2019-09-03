@@ -1,6 +1,8 @@
 import React from 'react';
 import { Component } from 'react';
 import { Grid, Cell, Card, CardTitle, CardText, CardActions, Button} from 'react-mdl';
+import { Link } from 'react-router-dom';
+
 import Avatar from '../images/avatar.png';
 import DancingPanda from '../images/panda.gif';
 
@@ -28,8 +30,9 @@ class LandingPage extends Component {
                         </div>
 
                         {/* About */}
+                        <Link to="/aboutme" style={{ textDecoration: 'none' }}>
                         <div className="button-container">
-                            <a href="/aboutme" rel="noopener noreferrer">
+                            <a href="#" rel="noopener noreferrer">
                                 <span></span>
                                 <span></span>
                                 <div className="green">
@@ -39,6 +42,7 @@ class LandingPage extends Component {
                                 </div>
                             </a>
                         </div>
+                        </Link>
 
                         {/* Github */}
                         <div className="button-container">
@@ -91,11 +95,17 @@ class LandingPage extends Component {
                         <div className="circle-links">
                             <ul>
 
-                                <li><a href="/projects"><i class="fa fa-file-code-o" aria-hidden="true" /></a>
-                                <text className="text-adjust">Projects</text></li>
 
-                                <li><a href="/resume"><i class="fa fa-pencil" aria-hidden="true" /></a>
+                                <Link to="/projects" style={{ textDecoration: 'none' }}>
+                                <li>
+                                <a href="#"><i class="fa fa-file-code-o" aria-hidden="true" /></a>
+                                <text className="text-adjust">Projects</text></li>
+                                </Link>
+                                
+                                <Link to="/resume" style={{ textDecoration: 'none' }}>
+                                <li><a href="#"><i class="fa fa-pencil" aria-hidden="true" /></a>
                                 <text className="text-adjust">Resume</text></li>
+                                </Link>
 
                                 <li><a href="mailto:contact@ahn.dev"><i class="fa fa-envelope" aria-hidden="true" /></a>
                                 <text>Contact</text></li>
