@@ -5,7 +5,13 @@ import { Link } from 'react-router-dom';
 import ProfilePicture from '../images/profile-alt.png';
 
 class AboutMe extends Component {
+
+    componentDidMount() {
+        window.scrollTo(0, 0);
+    }
+    
     render() {
+
         return(
             <div style={styleSheet} >
                 <Grid className="white-grid">
